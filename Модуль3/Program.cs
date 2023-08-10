@@ -27,6 +27,10 @@ class MainClass
         var age = (byte)int.Parse(Console.ReadLine());
         Console.WriteLine("Вас зовут {0} и вам {1} лет. ", name, age);
 
+        Console.WriteLine("Когда ваш день рождения? (формат 00.00.0000) ");
+        var dr = Console.ReadLine();
+        Console.WriteLine("Ваш день рождения {0}. ", dr);
+        
         Console.Write("Какой ваш любимый день недели (цифра 1-7)?  ");
        
         int d = int.Parse(Console.ReadLine());
